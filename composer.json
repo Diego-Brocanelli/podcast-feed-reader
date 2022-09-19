@@ -1,6 +1,6 @@
 {
     "name": "diego-brocanelli/podcast-feed-reader",
-    "description": "Leiror de feed podcast, retornando um objeto com seus dados para que seja utilizado posteriormente.",
+    "description": "Leitor de feed de podcast.",
     "type": "library",
     "license": "MIT",
     "autoload": {
