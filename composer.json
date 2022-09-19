@@ -1,7 +1,18 @@
 {
+    "name": "diego-brocanelli/podcast-feed-reader",
+    "description": "Leiror de feed podcast, retornando um objeto com seus dados para que seja utilizado posteriormente.",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Vendor\\Namespace\\": ""
+            "DiegoBrocanelli\\": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "Diego Brocanelli",
+            "email": "diegod2@msn.com"
+        }
+    ],
+    "require": {}
 }

@@ -3,7 +3,7 @@
 # Este aquivo foi insperirado no repositório:
 # https://github.com/ricardopedias/freep-console
 
-PHP_CONTAINER='app'
+PHP_CONTAINER='podcast-feed-reader'
 
 docker-compose up -d 1> /dev/null 2> /dev/stdout
 
