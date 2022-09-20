@@ -22,19 +22,6 @@ WORKDIR /var/www/html
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-RUN composer global require \
-        phpunit/phpunit \
-        squizlabs/php_codesniffer \
-        friendsofphp/php-cs-fixer \
-        phpmd/phpmd \
-        phploc/phploc \
-        phpstan/phpstan \
-        icanhazstring/composer-unused \
-        vimeo/psalm \
-        vlucas/phpdotenv
-
-RUN ln -s -f /root/.composer/vendor/bin/* /usr/local/bin/
-
 RUN pecl install -o -f xdebug && \
     docker-php-ext-enable xdebug && \
     rm -rf /tmp/pear
